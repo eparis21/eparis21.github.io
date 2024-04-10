@@ -45,8 +45,14 @@ header {
    }
    
    .nav-menu li a {
-       display: flex;
+       display: none;
+       text-decoration: none;
+       font-size: medium;
       }
+      
+    .menu-toggle {
+        display: block;
+    }
    
    @media (min-width:768px) {
        #wrapper {
