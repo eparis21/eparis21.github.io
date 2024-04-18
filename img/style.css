@@ -1,3 +1,4 @@
+
 header {
   width: 160%;
   height: 3.563rem;
@@ -45,12 +46,8 @@ header {
  }
  
  .nav-menu li a {
-    display: none;
- }
-
- .menu-toggle {
-  display: left;
- }
+     display: flex;
+    }
  
  @media (min-width:768px) {
      #wrapper {
@@ -62,7 +59,7 @@ header {
      display: none;
    }
  
-   .nav-menu li a {
+   .nav-menu {
      display: inline-flex;
    }
  
