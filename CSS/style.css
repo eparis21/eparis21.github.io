@@ -74,14 +74,6 @@ header {
   margin: auto;
   transition: 0.5s;
 } /* underline of link*/
-
-.menu-toggle ul li:hover::after {
-  width: 100%;
-} /* width of underline */
-
-nav .fa {
-  display: none; /* removes the menu and x symbol */
-}
  
  @media (min-width:768px) {
      #wrapper {
