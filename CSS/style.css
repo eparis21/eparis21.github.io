@@ -30,7 +30,7 @@ header {
  
  body {
   font-family: "Jacques Francois", serif;
-  font-weight: 400;
+  font-weight:400;
   font-style: normal;
  }
  
@@ -74,6 +74,14 @@ header {
   margin: auto;
   transition: 0.5s;
 } /* underline of link*/
+
+span {
+  align-content: center;
+}
+
+p {
+  align-content: center;
+}
  
  @media (min-width:768px) {
      #wrapper {
