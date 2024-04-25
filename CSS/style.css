@@ -3,7 +3,7 @@ header {
   margin: 0%;
   background-color: #B0EAF2;
   border-color: #000;
-  Border: 0.125rem solid #000;
+  border: 0.125rem solid #000;
   padding-bottom: 3.125rem;
   display: flex;
   flex-flow:column;
@@ -55,7 +55,7 @@ header {
 .menu-toggle ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 1.875rem;
   position: relative;
 } /* spacing between words when open hamburger */
 
@@ -67,8 +67,6 @@ header {
 
 .menu-toggle ul li::after {
   content: "";
-  width: 0%;
-  height: 2px;
   background-color: #000000;
   display: block;
   margin: auto;
@@ -76,11 +74,14 @@ header {
 } /* underline of link*/
 
 span {
-  align-content: center;
+  text-align: center;
 }
 
 p {
-  align-content: center;
+  text-align: center;
+  border: 0.125rem solid #000;
+  border-color: #000;
+  padding: 1.875rem;
 }
  
  @media (min-width:768px) {
@@ -107,7 +108,7 @@ p {
      display: inline-flex;
    }
 
-   li {
+   li  {
     color: #000;
     display: inline-block;
     Padding: 2rem;
