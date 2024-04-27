@@ -35,6 +35,13 @@ header {
   padding: 0;
   font-size: 200%;
  }
+
+ p {
+  text-align: center;
+  border: 0.125rem solid #000;
+  border-color: #000;
+  padding: 1.875rem;
+ }
  
  img {
   height: 42.688rem;
@@ -46,6 +53,14 @@ header {
   font-weight:400;
   font-style: normal;
  }
+
+ a {
+  color: #000;
+ }
+
+ li a:hover {
+  color: #e1efef;
+}
 
 .off-screen-menu {
   background-color: #B0EAF2;
@@ -59,8 +74,10 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  text-align: center;
+  font-size: 1.75rem;
   transition: .3s ease;
+  padding-top: 200px;
 }
 
 .off-screen-menu.active {
@@ -100,6 +117,10 @@ nav {
   top: 75%;
 }
 
+.ham-menu.active span {
+  background-color: #fff;
+}
+
 .ham-menu.active span:nth-child(1) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
@@ -117,7 +138,6 @@ nav {
 .grid-container {
 	display: flex;
 	background-color: #000 ;
-	padding: auto;
 	margin: auto;
   flex-wrap: wrap;
   flex-direction: row;
@@ -151,6 +171,7 @@ div#title2 {
   color: #000;
   font-size: 500%;
 }
+
 div#heading {
   font-size: large;
   border-style: solid;
@@ -176,15 +197,6 @@ h1 {
      #wrapper {
      margin: auto;
      display: flex;
-   }
- 
-   .nav-menu li a {
-     display: inline-flex;
-     padding: auto;
-   }
- 
-   .nav-menu menu {
-     display: inline-flex;
    }
    
    .nav-menu li a {
